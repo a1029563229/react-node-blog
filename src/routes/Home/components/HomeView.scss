@@ -1,0 +1,36 @@
+@import 'src/components/Header/Header.scss';
+.blog-home{
+  width: 1000px;
+  margin:auto;
+  text-align: left;
+}
+
+
+.blog-item {
+  margin-bottom: 100px;
+  &-time {
+    margin: 30px 0;
+    display: flex;
+    display: -webkit-flex;
+    &-item {
+      padding: 0 10px;
+      border-right: 1px solid #ccc;
+    }
+    &-nop{
+      padding-left: 0;
+    }
+    &-nob{
+      border: none;
+    }
+  }
+  &-text{
+    margin: 30px 0;
+    line-height: 30px;
+  }
+  &-read{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3e3e3e;
+    display: inline;
+    font-size: 16px;
+  }
+}

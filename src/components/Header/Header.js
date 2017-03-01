@@ -15,8 +15,8 @@ export const Header = () => (
           分类
         </Link>
         {' · '}
-        <Link to='/zen' activeClassName='route--active'>
-          爬虫
+        <Link to='/publish' activeClassName='route--active'>
+          发布
         </Link>
         {' · '}
         <Link to='/elapse' activeClassName='route--active'>

@@ -2,12 +2,14 @@
 import CoreLayout from '../layouts/CoreLayout'
 import Home from './Home'
 import Menu from './Menu'
+import Publish from './Article'
 import CounterRoute from './Counter'
 import ZenRoute from './Zen'
 import ElapseRoute from './Elapse'
 import RouteRoute from './Route'
 import PageNotFound from './PageNotFound'
 import Redirect from './PageNotFound/redirect'
+import 'amazeui/dist/css/amazeui.min.css';
 
 /*  Note: Instead of using JSX, we recommend using react-router
     PlainRoute objects to build route definitions.   */
@@ -23,6 +25,7 @@ export const createRoutes = (store) => ({
     RouteRoute(store),
     PageNotFound(),
     Menu(),
+    Publish(),
     Redirect
   ]
 })
